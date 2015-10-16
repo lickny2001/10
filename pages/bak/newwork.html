@@ -1,0 +1,20 @@
+<!-- work.html -->
+
+<div resizable class="page" >
+	<!-- <button class="button" onClick="location.href='#/works'">Close</button> -->
+	<div class="closex">
+		<a href="#/works" class="btn-close"></a>
+	</div>
+	<div contentwrapper class="contentwrapper">
+		<div contentitem class="contentitem">
+			<div class="verticalcenter">
+				<h1>{{work_snippet.title}}</h1>
+				<p class="snippet">{{work_snippet.snippet}}</p>
+			</div>
+			<div class="followlinks">
+				<a href="#work_longtext/{{work_snippet.workId}}">Continue Reading</a> | 
+				<a href="#work_caroussel/{{work_snippet.workId}}">View Work</a>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,66 @@
+/*  SECTIONS  */
+.4col-section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 0 0 1.6% 1.6%;
+	display: flex;
+}
+.col:first-child { margin-left: 0; width: 49.2%;}
+.col:nth-child(4n+4) {margin-left: 0;}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ 
+	overflow: hidden;
+}
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 23.8%;
+}
+/*.span_1_of_4:hover {background-color: #f90;}*/
+
+ul.flexcol {
+	display: flex;
+	flex-direction:
+	row; flex-wrap: wrap;
+}
+.ac-item-text {padding: 8px; text-align: left;}
+.ac-item-text h2 {font-weight: 300;}
+.ac-item-text h4 {color: #ddd;}
+.ac-item-text .datelocation {color: #aaa; font-size: .7rem; padding: .4em 0; line-height: 1.4em;}
+.ac-item-text .thumbtext {color: #000; padding: 2% 0;  line-height: 1.2em; font-size: .8em;}
+a.itemlink {cursor: pointer; display: flex;}
+.itemcontainer {background-color: #fafafa;
+    text-decoration: none;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -khtml-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.itemcontainer:hover {background-color: #f6f6f6;}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.col.span_1_of_4, .col.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}

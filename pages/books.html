@@ -1,0 +1,19 @@
+<!-- books.html -->
+
+<div resizable class="page books" ng-cloak>
+	<div fullpage id="fullpage">
+		<div class="section" ng-repeat="book in books" ng-cloak>
+			<a ui-sref="book({bookId: book.bookId})">
+				<div contentitem ng-style="{'background-image':'url({{book.imageUrl}})'}" style="background-repeat: no-repeat; background-size: contain; background-position: center;">
+				</div>
+			</a>
+			<div class="caption">
+				<p class="details"><span class="details title">{{book.title}}</span>, {{book.year}}
+				</p>
+			</div>
+		</div>
+	</div>	
+</div>
+
+
+

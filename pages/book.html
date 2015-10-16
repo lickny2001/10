@@ -1,0 +1,32 @@
+<!-- book.html -->
+
+<div resizable class="page books" ng-cloak>
+		<div class="closex">
+			<a href="#/works" class="btn-close"></a>
+		</div>
+		<div class="caroussel">
+			<slick class="image"
+				touchMove=true
+				fade=true 
+				dots=false 
+				infinite=true 
+				speed=600 
+				slides-to-show=1 
+				slides-to-scroll=1
+				swipe=true
+				init-onload=true
+				data=images
+				mobileFirst=true
+				variableWidth=true
+				adaptiveHeight=true
+				centerMode=true
+				touchMove=true>
+				<div contentitem ng-repeat="img in images">
+					<img style="background-image:url('{{img.imageUrl}}'); background-repeat: no-repeat; background-size: contain !important; background-position: center; display: block;">
+				</div>
+			</slick>
+			<div class="caption">
+				<p class="details"><span class="details title">{{book_details.title}}</span>, {{book_details.year}}, {{book_details.pages}}, {{book_details.dimensions}}, {{book_details.price}}, {{book_details.isbn}}</p>
+			</div>
+		</div>
+</div>

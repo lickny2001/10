@@ -1,0 +1,258 @@
+[
+
+    {
+        "workId": 1,
+        "imageUrl": "media/works/1_listedblue.jpg",
+        "title": "ListedBlue",
+        "year": "2015",
+        "snippet": "ListedBlue, an exclusive collection of meticulously sourced, hand-made, highly individual objects that have narrowly escaped obliteration.",
+        "longtext": "ListedBlue - an exclusive collection of meticulously sourced, handmade, and highly individual objects - pays homage to an archetypal ethos of a time before creation became production. ListedBlue objects are unfinished, imperfect and barely functional, they have never claimed economic value. Analogous to registering endangered species on so-called red and blue lists, ListedBlue operates as conservator of these objects. In the spacious vaulted basement of the Beurs van Berlage the collection is shown in 3 embodiments: the Object, the Image & the Download. The presentation of objects, photos and 3d-prints intertwines contemporary languages of art, product design and archeology. Playing with uniqueness, editions and infinite reproducibility ListedBlue questions value and values. The collection challenges notions of craft, materiality, authenticity and aura. On the eve of a new technological revolution ListedBlue celebrates imperfection, topples perceptions and replicates untold personal stories.",
+        "edition": "Unique | Edition of 5 | ∞",
+        "size": "mixed",
+        "technique": "mixed",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_listedblue.jpg"},
+            {"imageUrl": "media/works/2_listedblue.jpg"},
+            {"imageUrl": "media/works/3_listedblue.jpg"},
+            {"imageUrl": "media/works/4_listedblue.jpg"},
+            {"imageUrl": "media/works/5_listedblue.jpg"}
+        ]
+    },
+
+    {
+        "workId": 2,
+        "imageUrl": "media/works/1_cauchy.jpg",
+        "title": "Cauchy Horizons",
+        "year": "2012",
+        "snippet": "Black holes have a ‘point of no return’ beyond which nothing comes back, not even light can escape.",
+        "longtext": "In physics these so called outer and inner event horizons  are considered as gateways to the future and as bridges into parallel universes. The phenomena are so strange that it comes as no surprise that science fiction was needed to present us visions of the future and possible new worlds. In Cauchy Horizons Martine Stig investigates the visual language of science fiction cinema as ‘gravitational force’ of our collective imagination.Landmark sci-fi films ranging from Voyage dans la lune, Metropolis and La jettÈe to A Space Odyssey, Solaris and Videodrome, present patterns of symmetry, birds eyes perspectives, double projections, grids, screens, circles, pipes and lines and other aesthetic forms and figures (such as sleeping and running humans) that have shaped our image of the future.",
+        "edition": "Edition of 5",
+        "size": "30 x 35cm",
+        "technique": "Analogue color and  black & white prints",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_cauchy.jpg"},
+            {"imageUrl": "media/works/2_cauchy.jpg"},
+            {"imageUrl": "media/works/3_cauchy.jpg"},
+            {"imageUrl": "media/works/4_cauchy.jpg"},
+            {"imageUrl": "media/works/5_cauchy.jpg"},
+            {"imageUrl": "media/works/6_cauchy.jpg"},
+            {"imageUrl": "media/works/7_cauchy.jpg"},
+            {"imageUrl": "media/works/8_cauchy.jpg"}
+        ]
+    },
+
+    {
+        "workId": 3,
+        "imageUrl": "media/works/1_ante.jpg",
+        "title": "Ante",
+        "year": "2010",
+        "snippet": "A circle like a halo is then drawn around their head on that faded group shot. Because, if you are famous, people zoom in.",
+        "longtext": "Grouped around the protagonist in the image are children of the same age. To the left and right of the main figure we can see smart dresses, neat pullovers, starched (bow) ties and glimpses of these items. The chosen child is controlled in an unnatural looking manner by an upper arm, a tigh or a belly. Only a little can be seen of the setting; it looks unaccustomedly official. It is a set up you recognise, you can remember the accompanying feeling, the photographically frozen tension, the baited breath of those around you while the group portrait was taken. Later on, people often litterally refer to the annual class photo when the child has grown up to be a famous boxer or a politician, an opera singer or a notorious criminal. A circle like a halo is then drawn around their head on that faded group shot. Because, if you are famous, people zoom in ...",
+        "edition": "Edition of 7",
+        "size": "75 x 95cm",
+        "technique": "Analogue C-print framed",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_ante.jpg"},
+            {"imageUrl": "media/works/2_ante.jpg"},
+            {"imageUrl": "media/works/3_ante.jpg"},
+            {"imageUrl": "media/works/4_ante.jpg"},
+            {"imageUrl": "media/works/5_ante.jpg"},
+            {"imageUrl": "media/works/6_ante.jpg"},
+            {"imageUrl": "media/works/7_ante.jpg"},
+            {"imageUrl": "media/works/8_ante.jpg"},
+            {"imageUrl": "media/works/9_ante.jpg"}
+        ]   
+    },
+
+        {
+        "workId": 4,
+        "imageUrl": "media/works/1_play.jpg",
+        "title": "Play",
+        "year": "2009",
+        "snippet": "From the database of collected scenes I edited a story. I focus on the hard winter light. The streets become stage, the city a theatre.",
+        "longtext": "Play is a second experiment on the possibility of creating a mainstream feature on the basis of documentary shot footage. Staged in New York this time, using its well known filmic decor, I focus on the hard winter light. The streets become stage, the city a theatre. From the database of collected scenes I edited a story; unaware of my camera passers-by become part of a choreography. By playing with codes of filmic narration, Play interrogates the instinctual need of human beings to build up stories in order to make sense of the world..",
+        "edition": "Edition of 5",
+        "size": "10minutes",
+        "technique": "HDV",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_play_video.jpg"}
+        ]   
+    },
+
+        {
+        "workId": 5,
+        "imageUrl": "media/works/1_sutori.jpg",
+        "title": "Suto-ri-",
+        "year": "2007",
+        "snippet": "Suto-ri- interrogates the instinctual need of human beings to build up stories in order to make sense of the world.",
+        "longtext": "Suto-ri- is my first video. The project started as an experiment on the possibility of creating a mainstream feature on the basis of materials shot in a documentary fashion without actors and without production assistance. Playing with codes of filmic narration, I filmed passers-by on the streets of Tokyo for 3 months, creating a database of scenes. From this database I edited a story; unaware of my camera the passers-by became main characters in my film. By playing with codes of filmic narration, Suto-ri- interrogates the instinctual need of human beings to build up stories in order to make sense of the world.",
+        "edition": "Edition of 5",
+        "size": "20minutes",
+        "technique": "HDV",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_sutori_video.jpg"}
+        ]   
+    },
+
+    {
+        "workId": 6,
+        "imageUrl": "media/works/1_sisters.jpg",
+        "title": "Sisters",
+        "year": "2006",
+        "snippet": "Despite the absence of a face, the images are intimate.",
+        "longtext": "Photography is a precarious subject in the veiled world, but it is not forbidden in Kuwait. The rough rule that applies for women is: the more they are veiled, the less they are prepared to be photographed. Nevertheless, these veiled girls take many photographs with modern mobile camera themselves. The difficult position of photography in Islamic society doesn’t change the need to own a picture of a loved one. ‘Sisters’ consists of a series of portraits of fully veiled women. Making a portrait of someone who is veiled seems rather paradoxical, for the viewer the people in the photographs are unrecognizable. Despite the absence of a face, the images are intimate. The recognizable way of depicting them tells us that they were taken to remember and cherish the figures in the portraits.",
+        "edition": "Edition of 5",
+        "size": "122 x 100cm",
+        "technique": "Analogue C-print framed",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_sisters.jpg"},
+            {"imageUrl": "media/works/2_sisters.jpg"},
+            {"imageUrl": "media/works/3_sisters.jpg"},
+            {"imageUrl": "media/works/4_sisters.jpg"},
+            {"imageUrl": "media/works/5_sisters.jpg"},
+            {"imageUrl": "media/works/6_sisters.jpg"}
+        ] 
+    },
+    {
+        "workId": 7,
+        "imageUrl": "media/works/1_mrwood.jpg",
+        "title": "Any Resemblance (book)",
+        "year": "2004 - 2006",
+        "snippet": "The first day we find out the way Mr. Wood looks, the second day we find the place where he works, the third where he lives. The following days we focus on his social life, his dreams and his memories etcetera.",
+        "longtext": "In the project ‘Any resemblance to existing persons is purely coincidental//Stories of Mr. Wood’ (2004-2006) we investigate the conventions of telling a story. Starting point is the classical way of telling a story – the Hollywood way – and how this construction determines the way we put the things we see and experience in order.The project is collaboration with graphic designer Vanessa van Dam and consists of telling two different courses of one story. One time in Los Angeles (Hollywood) and one time in Bombay (Bollywood). The story is formed by pieces of documented reality, obtained by following a self-made-method, arranged by the rules of a classic (Hollywood) story. The method consists of a set of rules telling us day by day what to do to gain information. It’s an almost scientific method to visualize our way of looking and experiencing. The first day we find out the way Mr. Wood looks, the second day we find the place where he works, the third where he lives. The following days we focus on his social life, his dreams and his memories etcetera. Within ten days a character occurs. Obviously the Los Angeles scenario and the Bombay one unfolds differently.",
+        "edition": "Edition of 1000",
+        "size": "480 pages / 20 x 14 x 3cm",
+        "technique": "Paperback, Revolver (September 2006)",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_mrwood.jpg"},
+            {"imageUrl": "media/works/2_mrwood.jpg"},
+            {"imageUrl": "media/works/3_mrwood.jpg"},
+            {"imageUrl": "media/works/4_mrwood.jpg"},
+            {"imageUrl": "media/works/5_mrwood.jpg"},
+            {"imageUrl": "media/works/6_mrwood.jpg"}
+        ] 
+    },
+        {
+        "workId": 8,
+        "imageUrl": "media/works/1_bloos.jpg",
+        "title": "Bloos",
+        "year": "2002",
+        "snippet": "By freezing an uneasy moment the spectator is being confronted with a normally hidden vulnerability.",
+        "longtext": "Blush consists of portraits of blushing girls. By freezing an uneasy moment the spectator is being confronted with a normally hidden vulnerability. Color and expression of the girl’s faces point to something happening outside the visible image. The series Blush balances on the dividing line between private and public domain. As viewers we have no idea of what triggered these facial expressions. That remains off screen.",
+        "edition": "Edition of 5",
+        "size": "80 x 100cm",
+        "technique": "Analogue C-print / perspex",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_bloos.jpg"},
+            {"imageUrl": "media/works/2_bloos.jpg"},
+            {"imageUrl": "media/works/3_bloos.jpg"},
+            {"imageUrl": "media/works/4_bloos.jpg"},
+            {"imageUrl": "media/works/5_bloos.jpg"},
+            {"imageUrl": "media/works/6_bloos.jpg"}
+        ] 
+    },
+    {
+        "workId": 9,
+        "imageUrl": "media/works/1_dprk.jpg",
+        "title": "D.P.R.K.",
+        "year": "2002",
+        "snippet": "By handing-over the direction of photography, I show what the regime wants to show; imposing monuments and enormous squares. At the same time the spectator sees an artificial set where people look like extras.",
+        "longtext": "D.P.R.K. is a series of street images of North Korea. Only strictly supervised traveling in the Democratic Peoples Republic of Korea is possible. The images show scenes, directed by the state, taken from a point of view approved by the guides. By handing-over the direction of photography, I show what the regime wants to show; imposing monuments and enormous squares. At the same time the spectator sees an artificial set where people look like extras.",
+        "edition": "Edition of 5",
+        "size": "120 x 180cm",
+        "technique": "Analogue C-print framed",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_dprk.jpg"},
+            {"imageUrl": "media/works/2_dprk.jpg"},
+            {"imageUrl": "media/works/3_dprk.jpg"},
+            {"imageUrl": "media/works/4_dprk.jpg"},
+            {"imageUrl": "media/works/5_dprk.jpg"},
+            {"imageUrl": "media/works/6_dprk.jpg"}
+        ]        
+    },
+    {
+        "workId": 10,
+        "imageUrl": "media/works/1_men.jpg",
+        "title": "Men",
+        "year": "1999",
+        "snippet": "We see men shielding there eyes from the sunlight. While hiding for the bright sun, the passers-by seem to hide for the camera.",
+        "longtext": "Men is a series of images of the street of La Paz, Bolivia. We see men shielding there eyes from the sunlight. While hiding for the bright sun, the passers-by seem to hide for the camera. Bolivians shielding themselves from the sun become people who do not want their picture taken, it makes them look like celebrities or gangsters.",
+        "edition": "Edition of 5",
+        "size": "60 x 90cm",
+        "technique": "Analogue C-print/ dibond",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_men.jpg"},
+            {"imageUrl": "media/works/2_men.jpg"},
+            {"imageUrl": "media/works/3_men.jpg"},
+            {"imageUrl": "media/works/4_men.jpg"},
+            {"imageUrl": "media/works/5_men.jpg"},
+            {"imageUrl": "media/works/6_men.jpg"},
+            {"imageUrl": "media/works/7_men.jpg"}
+        ]        
+    },
+        {
+        "workId": 11,
+        "imageUrl": "media/works/1_after.jpg",
+        "title": "After",
+        "year": "1998",
+        "snippet": "We see men shielding there eyes from the sunlight. While hiding for the bright sun, the passers-by seem to hide for the camera.",
+        "longtext": "Men is a series of images of the street of La Paz, Bolivia. We see men shielding there eyes from the sunlight. While hiding for the bright sun, the passers-by seem to hide for the camera. Bolivians shielding themselves from the sun become people who do not want their picture taken, it makes them look like celebrities or gangsters.",
+        "edition": "Edition of 5",
+        "size": "100 x 120cm",
+        "technique": "Digital print / mounted on aluminium",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_after.jpg"},
+            {"imageUrl": "media/works/2_after.jpg"},
+            {"imageUrl": "media/works/3_after.jpg"},
+            {"imageUrl": "media/works/4_after.jpg"},
+            {"imageUrl": "media/works/4_after.jpg"},
+            {"imageUrl": "media/works/5_after.jpg"}
+        ]        
+    },
+            {
+        "workId": 12,
+        "imageUrl": "media/works/1_avoid.jpg",
+        "title": "Avoid",
+        "year": "1998",
+        "snippet": "Focusing on something that must not be shown, everything that does appear in the picture is a bonus. The unintended aesthetic compositions suddenly show a very non-descript place.",
+        "longtext": "In Avoid I tried to take pictures in New York City in which not a single billboard is visible. At eye level, the city is full with advertisement, capturing the attention of each passing consumer. Visually it is difficult to avoid. Focusing on something that must not be shown, everything that does appear in the picture is a bonus. The unintended aesthetic compositions suddenly show a very non-descript place.",
+        "edition": "Edition of 5",
+        "size": "Variable size",
+        "technique": "Analogue C-print / slideshow",
+        "caroussel":
+        [
+            {"imageUrl": "media/works/1_avoid.jpg"},
+            {"imageUrl": "media/works/2_avoid.jpg"},
+            {"imageUrl": "media/works/3_avoid.jpg"},
+            {"imageUrl": "media/works/4_avoid.jpg"},
+            {"imageUrl": "media/works/5_avoid.jpg"},
+            {"imageUrl": "media/works/6_avoid.jpg"},
+            {"imageUrl": "media/works/7_avoid.jpg"},
+            {"imageUrl": "media/works/8_avoid.jpg"},
+            {"imageUrl": "media/works/9_avoid.jpg"},
+            {"imageUrl": "media/works/10_avoid.jpg"},
+            {"imageUrl": "media/works/11_avoid.jpg"},
+            {"imageUrl": "media/works/12_avoid.jpg"},
+            {"imageUrl": "media/works/13_avoid.jpg"},
+            {"imageUrl": "media/works/14_avoid.jpg"},
+            {"imageUrl": "media/works/15_avoid.jpg"},
+            {"imageUrl": "media/works/16_avoid.jpg"},
+            {"imageUrl": "media/works/17_avoid.jpg"},
+            {"imageUrl": "media/works/18_avoid.jpg"},
+            {"imageUrl": "media/works/19_avoid.jpg"},
+            {"imageUrl": "media/works/20_avoid.jpg"}
+        ]        
+    }
+    ]
+

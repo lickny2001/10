@@ -1,0 +1,21 @@
+<!-- longtext.html -->
+
+<div class="page" >
+	<div class="closex">
+		<!-- SFG: below is working but the issue is with the #section 
+		at the work page. works 1st time only -->
+		<a href="#/works#{{work_longtext.workId}}" class="btn-close"></a>
+	</div>
+
+	<div contentwrapper class="contentwrapper"> 
+		<div contentitem class="contentitem">
+			<div class="verticalcenter">
+				<h1>{{work_longtext.title}}</h1>
+				<p class="longtext">{{work_longtext.longtext}}</p>
+			</div>
+		</div>
+		<div class="followlinks">
+			<a href="#work_caroussel/{{work_longtext.workId}}">VIEW</a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,46 @@
+[
+
+    {
+        "bookId": 1,
+        "imageUrl": "media/books/01_sisters.png",
+        "title": "Sisters",
+        "year": "2012",
+        "snippet": "This is the snippet text",
+        "pages": "46",
+        "dimensions": "30 x 35cm",
+        "price": "€ 49,=",
+        "isbn": "ISBN: 0039932884930902000",
+        "caroussel":
+        [
+            {"imageUrl": "media/books/1_sisters.jpg"},
+            {"imageUrl": "media/books/2_sisters.jpg"},
+            {"imageUrl": "media/books/3_sisters.jpg"},
+            {"imageUrl": "media/books/4_sisters.jpg"},
+            {"imageUrl": "media/books/5_sisters.jpg"},
+            {"imageUrl": "media/books/6_sisters.jpg"}
+        ]
+    },
+
+        {
+        "bookId": 2,
+        "imageUrl": "media/books/01_sisters.png",
+        "title": "Sisters2",
+        "year": "2012",
+        "snippet": "This is the snippet text",
+        "pages": "46",
+        "dimensions": "30 x 35cm",
+        "price": "€ 49,=",
+        "isbn": "ISBN: 0039932884930902000",
+        "caroussel":
+        [
+            {"imageUrl": "media/books/1_sisters.jpg"},
+            {"imageUrl": "media/books/2_sisters.jpg"},
+            {"imageUrl": "media/books/3_sisters.jpg"},
+            {"imageUrl": "media/books/4_sisters.jpg"},
+            {"imageUrl": "media/books/5_sisters.jpg"},
+            {"imageUrl": "media/books/6_sisters.jpg"},
+            {"imageUrl": "media/books/7_sisters.jpg"},
+            {"imageUrl": "media/books/8_sisters.jpg"}
+        ]
+    }
+]

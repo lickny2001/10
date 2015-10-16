@@ -1,0 +1,404 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, select {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*SFG: copied from bootstrap css. ensures 2% padding on the right*/
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul, li {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+
+/* FONTS
+=============================================================================*/
+@font-face {
+    font-family: 'Ctrl-Alt-Social-Icons';
+    src: url('../fonts/Ctrl-Alt-Social-Icons.eot');
+    src: url('../fonts/Ctrl-Alt-Social-Icons.eot') format('embedded-opentype'),
+         url('../fonts/Ctrl-Alt-Social-Icons.woff') format('woff'),
+         url('../fonts/Ctrl-Alt-Social-Icons.ttf') format('truetype');
+    font-weight: normal;
+    text-decoration: none;
+}
+html {font-family: 'Open Sans', sans-serif;}
+
+
+/* OVERRIDING BOOTSTRAP CSS
+=============================================================================*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    height: 50px;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+ul.menu {
+    line-height: 42px;
+}
+.menu li {
+    display: inline;
+    padding: 10px;
+    color: #000;
+}
+.menu li a {
+    color: #000;
+}
+
+.is-active {
+    text-decoration: underline;
+}
+
+/* CUSTOM STYLE CSS
+=============================================================================*/
+
+body.feature, body.works, body.caroussel, body.longtext, body.text, body.books {
+}
+
+body.caroussel, body.worksnippet {
+    height:100%;
+    overflow: hidden;
+}
+body.archive {}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.no-touch h1 {font-size: 5rem;}
+
+h2 {
+    font-size: 1.6rem;
+}
+h3 {
+    font-size: 1rem;
+}
+p {padding: 20px;}
+
+a {
+    text-decoration: none;
+}
+.page {
+    text-align:center;
+    width:100%; 
+    position: absolute;
+    top: 50px;
+    padding: 0 2%;
+}
+
+.work {
+/*    background-color: #fff;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    text-align: center;   */ 
+}
+
+.page > p {
+    line-height: 1.6rem;
+}
+footer {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+a.btn-close {
+    color: black;
+    text-decoration: none;
+    margin-right: 0px;
+}
+a.btn-close:after {
+  font-family: "Ctrl-Alt-Social-Icons";
+  content: "\e01b";
+  font-size: 2.4rem;
+}
+
+/* FEATURE PAGE
+=============================================================================*/
+body.feature > nav {display: none;}
+.feature {
+    background-image: url(../media/works/00-feature.jpg);
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.feature p {width: 40%; margin: 0 auto;}
+body.feature .contentwrapper {margin-bottom: 0;}
+body.feature .page {top:6%;}
+
+/* WORKS PAGES
+=============================================================================*/
+.contentwrapper {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.contentitem {
+    background-color: #fff;
+    height: 100% !important;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.verticalcenter {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+.closex {
+    text-align: right;
+    width: 100%;
+}
+.caroussel {
+    box-sizing: border-box;
+}
+slick img {
+    width: 100%;
+    height: 100%; /*SFG: adding to contain img heigt in carousel*/
+}
+.caption {
+    text-align: left;
+    height: 50px;
+    /*border: 1px solid #ddd;*/
+}
+.caption .year {
+    display: inline;
+    font-size: 1rem;
+}
+p.details {
+    line-height: .8rem;
+    font-size: 0.7rem;
+    padding: 0;
+}
+span.details.title{
+    font-weight: bold;
+}
+p.snippet, p.longtext {
+    line-height: 1.6rem;
+    margin: 0 auto;
+    width:42%;
+}
+.followlinks {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    font-size: 0.7rem;
+}
+.followlinks a {color: #000;}
+
+/* ARCHIVE PAGES
+============================================================================= */
+.archive-img {
+    width: 100%;
+    height: auto;
+}
+
+/*  SECTIONS  */
+.4col-section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float:left;
+    margin: 0 0 1.6% 1.6%;
+    display: flex;
+}
+
+/*SFG: if disabled, removes 1st child item width 2 span 2 collums*/
+/*.col:first-child { margin-left: 0; width: 49.2%;}*/
+
+/*SFG: use 4n+4 to correctly display 1child item width 2collumns*/
+.col:nth-child(2n+1) {margin-left: 0;}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ 
+    overflow: hidden;
+}
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+    width: 100%;
+}
+.span_3_of_4 {
+    width: 74.6%;
+}
+.span_2_of_4 {
+    width: 49.2%;
+}
+.span_1_of_4 {
+    width: 23.8%;
+}
+/*.span_1_of_4:hover {background-color: #f90;}*/
+
+ul.flexcol, div.flexcoll {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.ac-item-text {padding: 8px; text-align: left; color: #000; position: relative;}
+.ac-item-text h2 {font-weight: 300;}
+.ac-item-text h4 {margin: 6px 0; font-weight: 300;}
+.ac-item-text .datelocation {color: #aaa; font-size: .7rem; padding: .4em 0; line-height: 1.4em;}
+.ac-item-text .thumbtext {color: #000; padding: 2% 0;  line-height: 1.4em; font-size: .8em;}
+a.itemlink {cursor: pointer; display: flex;}
+.itemcontainer {background-color: #fafafa;
+    text-decoration: none;
+    -o-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -khtml-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.itemcontainer:hover {background-color: #f6f6f6;}
+
+/*  ARTICLE STYLES */
+.ar-caption {text-align: right; font-size: 0.7rem;}
+a.link{color:#000; font-size: 0.7rem; padding: 6px 0;}
+.related {
+    text-transform: uppercase;
+    font-size: 0.5rem;
+    padding: 2% 0;
+    position: absolute;
+    bottom: 0;
+}
+.internallink {text-transform: none; font-size: 0.7rem; padding: 6px 0; font-weight: bold;}
+.internallink .year {font-weight: normal;}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    .col {  margin: 1% 0 1% 0%; }
+    .col.span_1_of_4, .col.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+
+
+/* BOOKS
+============================================================================= */
+.books {
+    background-color: #bbb;
+    background-image: url('../media/assets/books-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body.books nav, body.book nav {background-color: transparent;}
+.page.books, .page.book {top: 0; height: 100%; padding-top: 50px;}
+
+/* ANIMATIONS
+============================================================================= */
+
+
+/* fade in */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/* fade out */
+@keyframes fadeOut {
+    from {opacity: 1;}
+    to {opacity: 0;}   
+}
+
+.ng-enter           { animation: fadeIn 0.7s  ease-in; }
+/*.ng-leave           { animation: fadeOut 0.5s both ease-in; }*/
+
+.ng-scope {
+    border: none;
+}
+
+/*
+.ng-enter {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 2s linear;
+    }
+    
+.ng-leave {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+    }
+*/
+
+
+/* Mixin */
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* MEDIA QUERIES
+============================================================================= */
+
+@media all and (orientation: portrait) {
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+}

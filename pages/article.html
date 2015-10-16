@@ -1,0 +1,40 @@
+<!-- SFG: this is the article page (single archive) -->
+
+<div class="page" ng-repeat="post in posts" ng-show="post.slug==articleId">
+	<div class="section group">
+	<div class="flexcoll">
+		<div class="col span_1_of_4">
+			<div class="ac-item-text">
+				<h2>{{post.acf.title}}</h2>
+				<h4>{{post.acf.subtitle}}</h4>
+				<div class="datelocation">{{post.acf.date}} <br> {{post.acf.location}}</div>
+				<div><a class="link" href="{{link}}">{{post.acf.link}}</a></div>
+				<div ng-if="post.acf.relatedlink.length">
+					<div class="related"><div>related work:</div>
+						<div><a class="link" href="{{post.acf.relatedlink}}">{{post.acf.relatedname}}</a></div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+			<div class="col span_3_of_4">
+				<div ng-if="post.acf.image01.length" class="imagewrapper" style="width: 100%;">
+					<img class="archive-img" ng-src="{{post.acf.image01}}"><br>
+					<div class="ar-caption">{{post.acf.image01caption}}</div>
+				</div>
+			</div>
+	</div>
+	</div>
+	<div class="section group">
+		<div class="col span_3_of_4" style="float: right;" ng-repeat="post in posts" ng-show="post.slug==articleId">
+			<div class="ac-item-text">
+				<div class="thumbtext">{{post.acf.text01}}</div>
+				<div class="thumbtext">{{post.acf.text02}}</div>
+				<div ng-if="post.acf.image02.length">
+					<img class="archive-img" ng-src="{{post.acf.image02}}">
+				</div>
+				<div class="ar-caption">{{post.acf.image02caption}}</div>				
+			</div>
+		</div>
+	</div>
+</div>

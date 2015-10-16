@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app="martineStig">
+
+<head>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+<!-- SCROLLS -->
+<!-- SFG: will need some of this back in order to restore the underlined top nav menu items -->
+  <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" /> -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic' rel='stylesheet' type='text/css'>
+<!-- SLICK css -->
+  <link rel="stylesheet" type="text/css" href="style/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="style/slick-theme.css"/>
+
+<!-- FULLPAGE -->
+  <link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
+  <link rel="stylesheet" type="text/css" href="style/examples.css" />
+
+<!-- CUSTOM -->  
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+
+</head>
+
+<body route-css-classnames>
+
+  <nav class="navbar">
+    <div class="container">
+      <ul class="menu">
+        <li><a ui-sref="works" isActiveNav>Works</a></li>
+        <li><a ui-sref="books">Books</a></li>
+        <li><a ui-sref="text">Text</a></li>
+        <li><a ui-sref="archive">Archive</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div id="main">
+  
+    <!-- angular templating -->
+		<!-- this is where content will be injected -->
+    <div ui-view></div>
+    
+  </div>
+
+<!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<!-- JS (load angular, ui-router, and our custom js file) -->
+  <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+  <script src="http://code.angularjs.org/1.2.13/angular-touch.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+  <script type="text/javascript" src="js/swipe/angular-swipe.js"></script>
+
+<!-- SLICK we need both js files! -->
+  <script type="text/javascript" src="js/slick/slick.js"></script>
+  <script type="text/javascript" src="js/angular-slick/dist/slick.js"></script>
+
+<!-- FULLPAGE -->
+  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+  <script type="text/javascript">
+/* SFG: don't need this any longer, is now part of the state controller */
+/*    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        anchors: ['section1', 'section2', 'section3', 'section4']
+      });
+    })*/
+  </script>
+
+<!-- MODERNIZR -->
+<script type="text/javascript" src="js/modernizrTouch.js"></script>
+
+<!-- CUSTOM SCRIPTS -->  
+  <script src="js/script.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/routeCssClassnames.js"></script>
+
+</body>
+
+</html>

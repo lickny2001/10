@@ -1,0 +1,18 @@
+<!-- works.html -->
+
+<div resizable class="page">
+	<div fullpage id="fullpage">
+		<div class="section" ng-repeat="work in works">
+			<a ui-sref="work({workId: work.workId})">
+				<div contentitem ng-style="{'background-image':'url({{work.imageUrl}})'}" style="background-repeat: no-repeat; background-size: contain; background-position: center;">
+				</div>
+			</a>
+			<div class="caption">
+				<p class="details"><span class="details title">
+				<a ui-sref="works.snippet({workId: work.workId})">{{work.title}}</a>
+				</span>, {{work.year}}
+				</p>
+			</div>
+		</div>
+	</div>
+</div>

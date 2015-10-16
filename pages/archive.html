@@ -1,0 +1,23 @@
+<!-- SFG: archvive built on WP backend -->
+
+<div class="page">
+	<div class="4col-section group" ng-cloak>
+			<ul class=flexcol>
+				<li ng-repeat="post in posts" class="col span_2_of_4">
+					<a ui-sref="article({articleId:post.slug})" class="itemlink">
+						<div class="itemcontainer">
+							<div ng-if="post.acf.imagethumb.length"> <!-- SFG: show div only if image inside is available -->
+								<img class="archive-img" ng-src="{{post.acf.imagethumb}}">
+							</div>
+							<div class="ac-item-text">
+								<div><h2>{{post.acf.title}}</h2></div>
+								<div class="datelocation">{{post.acf.date}} <br>{{post.acf.location}}</div>
+								<div class="thumbtext" style="align-self:flex-end;">{{post.acf.thumbtext}}</div>
+							</div>
+						</div>	
+					</a>
+				</li>
+				<div style="clear:both"></div>
+			</ul>
+	</div>
+</div>
